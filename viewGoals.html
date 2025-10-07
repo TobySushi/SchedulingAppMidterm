@@ -49,24 +49,16 @@
                 <div class="col-6">
                     <h2>Daily Goals</h2>
                     <hr>
-                    <!--content here-->
-                    <div>
-                        <input class="strikethrough" type="checkbox">
-                        <label class="cb-label">Exercise for 30 minutes</label>
-                    </div>
-                    <div>
-                        <input class="strikethrough" type="checkbox">
-                        <label class="cb-label">Read 20 pages of a book</label>
-                    </div>
-                    <div>
-                        <input class="strikethrough" type="checkbox">
-                        <label class="cb-label">Meditate for 10 minutes</label>
-                    </div>
-                    <!--Create new DAILY goal btn-->
+                    <!--content ends up here-->
+                    <div id="dailyGoals"></div>
+                    <!--DAILY buttons-->
                     <div>
                         <br>
+                        <!--Add new daily goal button-->
                         <input class="form-control-sm" type="text" placeholder="Add daily goal" id="dailyTextInput">
-                        <button class="btn btn-primary" type="button" id="addDailyBtn">Add</button>
+                        <button class="btn btn-primary btn-sm" type="button" id="addDailyBtn">Add</button>
+                        <!--Clear button-->
+                        <button class="btn btn-danger btn-sm" type="button" id="clearDailyBtn">Clear Completed</button>
                     </div>
                 </div>
                 <div class="col-6">
@@ -75,15 +67,15 @@
                         <h2>Short-term Goals</h2>
                         <hr>
                         <!--content here-->
-                        <div>
-                            <input class="strikethrough" type="checkbox">
-                            <label class="cb-label">Save $500</label>
-                        </div>
-                        <!--Create new SHORT goal btn-->
+                        <div id="shortTermGoals"></div>
+                        <!--SHORT buttons-->
                         <div>
                             <br>
+                            <!--Add new short goal button-->
                             <input class="form-control-sm" type="text" placeholder="Add short-term goal" id="shortTextInput">
-                            <button class="btn btn-primary" type="button" id="addShortBtn">Add</button>
+                            <button class="btn btn-primary btn-sm" type="button" id="addShortBtn">Add</button>
+                            <!--Clear button-->
+                            <button class="btn btn-danger btn-sm" type="button" id="clearShortBtn">Clear Completed</button>
                         </div>
                     </div>
                     <!--Long-term goals-->
@@ -91,15 +83,15 @@
                         <h2>Long-term Goals</h2>
                         <hr>
                         <!--content here-->
-                        <div>
-                            <input class="strikethrough" type="checkbox">
-                            <label class="cb-label">Graduate college</label>
-                        </div>
-                        <!--Create new LONG goal btn-->
+                        <div id="longTermGoals"></div>
+                        <!--LONG buttons-->
                         <div>
                             <br>
+                            <!--Add new long goal button-->
                             <input class="form-control-sm" type="text" placeholder="Add long-term goal" id="longTextInput">
-                            <button class="btn btn-primary" type="button" id="addLongBtn">Add</button>
+                            <button class="btn btn-primary btn-sm" type="button" id="addLongBtn">Add</button>
+                            <!--Clear button-->
+                            <button class="btn btn-danger btn-sm" type="button" id="clearLongBtn">Clear Completed</button>
                         </div>
                     </div>
                 </div>
