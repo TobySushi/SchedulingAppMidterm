@@ -17,6 +17,7 @@ set input with strikethrough class ; set label to cb-label class
 
 .card-img-top {
     border-radius: 5%;
+    margin: 10px 0px 10px 0px;
 }
 
 .article-container img {
@@ -33,5 +34,9 @@ set input with strikethrough class ; set label to cb-label class
 }
 
 .additional-articles {
+    margin: 20px 0px 20px 0px;
+}
+
+.form-container {
     margin: 20px 0px 20px 0px;
 }
